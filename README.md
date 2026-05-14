@@ -39,23 +39,6 @@ Hệ thống này được xây dựng nhằm:
 
 ---
 
-## 🧱 Kiến trúc tổng quan
-
-```mermaid
-flowchart LR
-    U[User / Admin] --> FE[Frontend Local<br/>Vite]
-    FE -->|REST API| BE[Backend Local<br/>FastAPI]
-    FE -->|SSE / WebSocket| BE
-
-    BE --> DB[(MySQL Database)]
-    BE --> CSV[CSV Dataset]
-    BE --> ML[Local Model Bundles]
-    BE --> ALERT[Alert Service]
-
-    COLAB[Colab Inference Server] -. optional .-> BE
-```
----
-
 ## 🛠️ Công nghệ sử dụng
 
 ### Backend
