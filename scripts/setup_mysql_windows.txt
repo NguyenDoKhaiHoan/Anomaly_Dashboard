@@ -1,0 +1,4 @@
+1. Mở MySQL Workbench hoặc terminal MySQL.
+2. Chạy file database/init_mysql.sql.
+3. Copy .env.example thành .env.
+4. Sửa DATABASE_URL cho đúng tài khoản MySQL của bạn.

@@ -1,0 +1,5 @@
+trans_date_trans_time,merchant,category,amt,gender,state,city_pop,job,dob,lat,long,merch_lat,merch_long
+2026-05-09 08:00:00,amazon,shopping_net,120.5,F,CA,300000,Engineer,1996-08-11,34.05,-118.24,34.10,-118.20
+2026-05-09 08:00:01,walmart,grocery_pos,45.0,M,TX,120000,Teacher,1988-04-02,29.76,-95.36,29.75,-95.42
+2026-05-09 08:00:02,ebay,misc_net,2400.0,F,FL,850000,Analyst,1977-10-09,25.76,-80.19,27.99,-82.45
+2026-05-09 08:00:03,target,shopping_net,15.5,M,NC,45000,Doctor,1969-03-21,35.77,-78.63,35.79,-78.61

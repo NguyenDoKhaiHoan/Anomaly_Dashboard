@@ -1,0 +1,44 @@
+{
+  "models": [
+    {
+      "key": "fraud_statistical",
+      "name": "Fraud Statistical Detector",
+      "stream_type": "credit_card",
+      "model_type": "statistical",
+      "artifact_path": "models/fraud/statistical_fraud_model.pkl",
+      "metadata_json": {
+        "source": "uploaded_bundle",
+        "notes": "Threshold/EMA/Z-score based detector."
+      }
+    },
+    {
+      "key": "iot_lstm",
+      "name": "IoT LSTM Sequence Classifier",
+      "stream_type": "iot_sensor",
+      "model_type": "lstm_sequence",
+      "artifact_path": "models/iot/iot_lstm_full_bundle.pt",
+      "metadata_json": {
+        "source": "uploaded_bundle",
+        "notes": "Sequence model using sliding window inference."
+      }
+    }
+  ],
+  "datasets": [
+    {
+      "key": "credit_card_sample",
+      "name": "Credit Card Sample Stream",
+      "stream_type": "credit_card",
+      "source_type": "csv",
+      "path": "data/samples/credit_card_sample.csv",
+      "description": "Sample credit-card transaction stream."
+    },
+    {
+      "key": "iot_raw",
+      "name": "IoT Raw Data",
+      "stream_type": "iot_sensor",
+      "source_type": "csv",
+      "path": "data/raw/iot/iot.csv",
+      "description": "Raw IoT data stream from data/raw/iot/iot.csv."
+    }
+  ]
+}

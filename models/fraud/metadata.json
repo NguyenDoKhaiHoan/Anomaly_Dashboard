@@ -1,0 +1,33 @@
+{
+  "bundle_type": "statistical_detector_config",
+  "threshold": 14.269445387769874,
+  "best_f1": 0.3782654127481714,
+  "best_weights": {
+    "zscore_weight": 0.5,
+    "city_pop_weight": 0.5,
+    "ema_diff_weight": 0.5,
+    "ema_gap_multiplier": 3.0
+  },
+  "rolling_window": 50,
+  "ema_span": 20,
+  "zscore_features": ["amt", "distance"],
+  "extra_features": ["city_pop", "ema_diff"],
+  "global_mean": {
+    "amt": 66.53,
+    "distance": 47.47
+  },
+  "global_std": {
+    "amt": 107.25,
+    "distance": 18.07
+  },
+  "statistical_params": {
+    "city_pop": {
+      "mu": 88824.44,
+      "sd": 301956.36
+    },
+    "ema_diff": {
+      "mu": 60.92,
+      "sd": 153.92
+    }
+  }
+}

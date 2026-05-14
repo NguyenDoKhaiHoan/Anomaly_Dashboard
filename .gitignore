@@ -1,0 +1,46 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Database / local files
+*.sqlite3
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model/data files
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw datasets - too large for GitHub
+data/raw/**/*.csv

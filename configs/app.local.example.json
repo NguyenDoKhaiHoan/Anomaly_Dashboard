@@ -1,0 +1,13 @@
+{
+  "app_name": "Streaming Anomaly Detection Platform",
+  "environment": "development",
+  "stream_defaults": {
+    "credit_card": 1.0,
+    "iot_sensor": 1.0
+  },
+  "active_models": [
+    "fraud_statistical",
+    "iot_lstm"
+  ],
+  "notes": "Example local overrides for experiments"
+}

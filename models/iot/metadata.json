@@ -1,0 +1,17 @@
+{
+  "bundle_type": "lstm_sequence_classifier",
+  "threshold": 0.45000000000000007,
+  "window_size": 80,
+  "features": [
+    "Temperature",
+    "Humidity",
+    "Battery_Level",
+    "temp_diff",
+    "hum_diff",
+    "bat_diff",
+    "temp_mean10",
+    "temp_std10",
+    "hum_mean10",
+    "hum_std10"
+  ]
+}
